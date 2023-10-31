@@ -1,8 +1,8 @@
-# EOxHub / EuroDataCube (EDC)
+# EOxHub / Euro Data Cube (EDC)
 
 ## EOxHub - What does it do in FAIRiCUBE
 
-EOxHub offers the necessary capabilities to bridge between raw EO data archives populated through satellite resources and the exploitation of these EO data sources for analysis and decision making.
+EOxHub provides the [FAIRiCUBE Lab](../guide/jupyterlab.md) and offers the necessary capabilities to bridge between raw EO data archives populated through satellite resources and the exploitation of these EO data sources for analysis and decision making.
 
 The EOxHub platform powers ready-made cloud workspaces to run Earth Observation workloads in the cloud, tailored to the individual needs of different projects.
 
@@ -12,10 +12,9 @@ The EOxHub platform powers ready-made cloud workspaces to run Earth Observation 
 
 EOxHub provides managed JupyterLab instances with specific tooling and customizable environments on top for science projects, community workshops (e.g. during conferences) and different application domains (both, commercial or non-profit).
 
-A detailed description of the FAIRiCUBE-Hub architecture detailing its components, its deployment and operations strategy based on control and worker plane as well as on-boarding requirements and processes for service and application providers. The FAIRiCUBE Hub Architecture details the functionalities available from the FAIRiCUBE Hub for users but also for providers of services, data, apps, notebooks, etc. is provided under the [Design Section](../design/architecture.md)
+A detailed description of the FAIRiCUBE-Hub architecture detailing its components, its deployment and operations strategy based on control and worker plane as well as on-boarding requirements and processes for service and application providers. The FAIRiCUBE Hub Architecture details the functionalities available from the FAIRiCUBE Lab for users but also for providers of services, data, apps, notebooks, etc. is provided under the [Design Section](../design/architecture.md)
 
-
-EOxHUB also powers the **EuroDataCube (EDC)** which provides an extensive Documentation, which we don't like to repeat here. So we simply provide the respective links.
+EOxHub also powers the **Euro Data Cube (EDC)** which provides an extensive Documentation, which we don't like to repeat here. So we simply provide the respective links.
 General purpose subscriptions for managed cloud workspace can also be checked-out through the [Euro Data Cube](https://eurodatacube.com/marketplace) marketplace.
 
 ## EDC - What is it for:

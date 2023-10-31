@@ -1,4 +1,4 @@
-# FAIRiCUBE JupyterLab
+# FAIRiCUBE Lab
 
 <!-- ![img.png](../../images/Jupyter_FAIRiCUBE_Kernels.png) -->
 <!--
@@ -10,17 +10,19 @@
 ## Basic usage
 
 This section provides a brief introduction for users to the basic features of
-the JupyterLab environment as offered by FAIRiCUBE.
+the JupyterLab environment as offered by the FAIRiCUBE Lab.
 For more in-depth documentation on the various components, see the links in the
 section [Further Information](further-information.md).
 
 
-### FAIRICUBE-Hub Sign-Up / Sign-In
+### FAIRICUBE Lab Sign-Up / Sign-In
 
-The FAIRICUBE-Hub is a moderated service i.e. access has to be granted by an Administrator.
-Once the access is granted the login is possible.<br>
+The FAIRICUBE Lab is a moderated service i.e. access has to be granted by an Administrator.
+Once the access is granted the login is possible.
+
 To this, we kindly ask you to write as an email at `fairicube@nilu.no` with `Subject: FAIRiCUBE - New user` and we will see
-if we can already onboard you.<br>
+if we can already onboard you.
+
 To use the FAIRiCUBE JupyterLab environment, navigate to <https://eoxhub.fairicube.eu>
 with a web browser (a recent version of Firefox, Chrome, or Safari is recommended).
 
@@ -34,7 +36,8 @@ In FAIRiCUBE you may use a combination of Username & Password or a GitHub accoun
 
 ### Use Case specific Workplace Profiles
 
-If your Jupyter server is not already running, you may be presented with a menu of user JupyterLab profiles to use for your session; there might be one or more JupyterLab profiles to choose from, depending on the computational resources needs of your team. Please select a suitable profile for your current task; it might not always require the profile with the strongest computational resources available.<br>
+If your Jupyter server is not already running, you may be presented with a menu of user JupyterLab profiles to use for your session; there might be one or more JupyterLab profiles to choose from, depending on the computational resources needs of your team. Please select a suitable profile for your current task; it might not always require the profile with the strongest computational resources available.
+
 After choosing your environment, you will see a progress bar appearing for a few
 moments while it is started for you. The JupyterLab interface will then appear in your web browser, ready for use.
 
@@ -47,14 +50,15 @@ Currently these FAIRiCUBE Use Case specific environments are provided which can 
 
 ### JupyterLab workspace launcher
 
-The launcher provides access to various Jupyter Notebooks, tools (eg. console, VS-Code) and applications (eg. ML-Flow, TensorBoard, NotebookViewer).<br>
+The launcher provides access to various Jupyter Notebooks, tools (eg. console, VS-Code) and applications (eg. MLflow, TensorBoard, NotebookViewer).
+
 Furthermore access to a shared drive (Object storage) is provided providing direct access to the provided datasets as well as to Machine learning Notebooks.
 
 <p align="center">
     <img src="../../images/JupyterLab_workspace_launcher.png" alt="JupyterLab Workspace Notebook Launcher"/>
 </p>
 
-Here the users can develop and run their own code as well as share it with ohter FAIRICUBE users or make them availabe via a curated shred folder
+Here the users can develop and run their own code as well as share it with ohter FAIRiCUBE users or make them availabe via a curated shared folder.
 
 
 ### JupyterLab workspace monitoring
@@ -69,15 +73,16 @@ The workspace also provides interesting monitoring information about the usage.
 ### Ending a Session
 
 The correct way to end a session is to execute the following procedure:
-* Use the Menu and click:  *File -> Hub control Panel*<br>
-* this will forward you to the following, where you should click the `Stop My Server` Button.<br>
-    * just using:  *File -> Log Out* will not stop your server and unnecessary costs my occur<br>
+
+* Use the Menu and click:  *File -> Hub control Panel*
+* this will forward you to the following, where you should click the `Stop My Server` Button.
+* just using:  *File -> Log Out* will not stop your server and unnecessary costs my occur
 
 <p align="center">
     <img src="../../images/JupyterHub_start-stop_server.png" alt="JupyterHub_start-stop_server.png"/>
 </p>
 
-This ensures that no unnecessary cost occur due to a forgotten session (eg. an open Tab in your Browser).
+This ensures that no unnecessary costs are incured due to a forgotten session (e.g. an open Tab in your Browser).
 In any case, unused session will be closed (culling) after a pre-defined time.
 
 Once the Server has stopped (see Figure in next section) you can regularily `Log Out` using the `Logout` button located in the Top-right corner.
@@ -88,7 +93,8 @@ Once the Server has stopped (see Figure in next section) you can regularily `Log
 If you have already started your session but you need to change the JupyterLab profile,
 you can do this by selecting *File -> Hub control panel* from the menu within
 JupyterLab. Then click the `Stop my server` button and wait for your current
-server to shut down.<br>
+server to shut down.
+
 After you clicked the `Stop My Server` button you will be presented with:
 
 <p align="center">
@@ -109,13 +115,14 @@ If you wish to stop your session explicitly, you can use the hub control panel a
 ### Getting-started notebooks
 
 You can find example notebooks in FAIRiCUBE JupyterLab to help you to get
-started.<br>
+started.
+
 To access them:
 
 * Head to the JupyterLab `Launcher`
 ![JupyterLab_workspace_launcher.png](../../images/JupyterLab_workspace_launcher.png)
 If your `Launcher` is not visible right away, you can open it via the `plus` button in the top left corner, which is highlighted in blue in the screenshot.
-* Once selected you see several example notebooks:<br>
+* Once selected you see several example notebooks:
 ![JupyterLab_workspace_Notebook_Viewer.png](../../images/JupyterLab_workspace_Notebook_Viewer.png)
 * Select one of them, and you will see a preview of the notebook, to execute the selected notebook click on `EXECUTE NOTEBOOK` in the top right corner
 ![JupyterLab_workspace_Notebook_Example.png](../../images/JupyterLab_workspace_Notebook_Example.png)
@@ -148,7 +155,7 @@ Steps to create custom team conda environments:
 * If you have never created a custom environment, there will be none listed.
 * Click on the Plus-sign next to *Environments*
 * In the top section, select the namespace for which to create the custom environment. There might be more than one if you are part of several teams. If you are unsure which namespace you should use, have a look at the Server Options overview of the FAIRiCUBE JupyterLab.
-* You may either choose an environment.yml file to upload or paste your [environment configuration](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually) into the window directly.<br>
+* You may either choose an environment.yml file to upload or paste your [environment configuration](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually) into the window directly.
 It should look something like this example:
 
         channels:
@@ -173,7 +180,8 @@ It should look something like this example:
 * If you click on the build number you can see the logs. This might beuseful if the build has failed.
 * Once the build is completed, you need to refresh your browser window to make it available in the kernel selection. Instructions how to change the kernel to your custom environment are provided in the section [python environment selection of the jupyter kernel](#python-environment-selection-of-the-jupyter-kernel).
 
-You can also modify an existing environment and rebuild it; the conda-store will keep all the builds' logs.<br>
+You can also modify an existing environment and rebuild it; the conda-store will keep all the builds' logs.
+
 It will look similar to the screenshot below.
 ![conda-builds.png](../../images/conda-builds.webp)
 
@@ -184,5 +192,3 @@ select the checkmark in the blue button panel of the desired conda-build.
 The reload button in the blue button panel will trigger a rebuild of the
 conda-environment specification of the selected conda-build. The bin button
 deletes the conda-build of the selected conda-build.
-
-

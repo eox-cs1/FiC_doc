@@ -11,9 +11,9 @@ nav:
   - User guide:
     - Overview: guide/overview.md
     - Datacubes: guide/datacubes.md
-    - Catalog (STAC-fastapi): guide/fic_catalog.md
-    - FAIRICUBE-Hub: guide/fic_access.md
-    - JupyterLab: guide/jupyterlab.md
+    - Catalog: guide/fic_catalog.md
+    - FAIRiCUBE Hub: guide/fic_access.md
+    - FAIRiCUBE Lab: guide/jupyterlab.md
     #- Datacubes:
       #- Datacubes: guide/datacubes.md
       #- rasdaman generation: guide/rasdaman_cube.md
@@ -22,20 +22,20 @@ nav:
       #- xcube generation:  guide/xcube-generation.md
     - rasdaman datacube generation: guide/rasdaman_cube.md
     - xcube datacube generation:  guide/xcube-generation.md
-    - ML-Toolkits: guide/ml-toolkits.md
-    - TensorBoard: guide/tensorboard.md
+    - ML Toolkits: guide/ml-toolkits.md
     - Further information: guide/further-information.md
   - External resources:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
     - Sentinel-Hub: external_resource/sentinelhub_access.md
   - ML-Toolkits:
     - Introduction: ml-toolkit/ml_introduction.md
-    - Getting Started: ml-toolkit/ml_getting-started.md
-    - Example Use Case: ml-toolkit/ml_example.md
-  - TensorBoard:
-    - Introduction: tensorboard/tb_introduction.md
-    - Getting Started: tensorboard/tb_getting-started.md
-    - Example Use Case: tensorboard/tb_example.md
+    - MLflow Introduction: ml-toolkit/ml_mlflow-introduction.md
+    - MLflow Getting Started: ml-toolkit/ml_getting-started.md
+    - MLflow Example Use Case: ml-toolkit/ml_example.md
+    - TensorBoard Introduction: tensorboard/tb_introduction.md
+    - TensorBoard Getting Started: tensorboard/tb_getting-started.md
+    - TensorBoard Example Use Case: tensorboard/tb_example.md
+    #- Recommendations and Considerations: ml-toolkit/ml_recommendations.md
   - Datasets:
     - List of datasets: datasets/datasets.md
     - STAC Catalog: datasets/stac_catalog.md
@@ -49,7 +49,7 @@ nav:
     - Context: design/fic_context.md
     - Architecture: design/fic_architecture.md
 #    - Hub: design/hub.md
-    - Services and Tools: design/fic_access-and-tools.md
+    - Services and Tools: design/fic_services-and-tools.md
 
 plugins:
   - search
