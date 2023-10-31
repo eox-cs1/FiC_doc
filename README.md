@@ -1,6 +1,6 @@
 # FAIRiCUBE-HUB documentation
 
-This repository contains the source files for the FAIRiCUBE-HUB documentation.
+This repository contains the source files for the FAIRiCUBE-HUB documentation.<br>
 Acts as the deliverable D4.5 in the project.
 
 ## Building the docs
