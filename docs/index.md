@@ -1,9 +1,7 @@
 
 <p align="center">
-    <img src="fairicube_logo_200x149.jpg" alt="FAIRiCUBE Logo" style="height: 134px; width:100px;"/>
+    <img src="./images/fairicube_logo_200x149.jpg" alt="FAIRiCUBE Logo" style="height:149px; width:200px;"/>
 </p>
-
-
 
 # Welcome to F.A.I.R. Information Cubes - FAIRiCUBE
 
