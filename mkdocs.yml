@@ -1,0 +1,62 @@
+site_name: FAIRiCUBE-HUB Documentation
+#site_url: https://fairicube.readthedocs.io
+#repo_url: https://github.com/fairicube/fairicubehub-doc
+#edit_uri: edit/main/docs
+copyright: Copyright © 2023 by the FAIRiCUBE Team
+theme: readthedocs  # alternative: mkdocs
+
+nav:
+  - Home:
+    - About FAIRiCUBE: index.md
+  - User guide:
+    - Overview: guide/overview.md
+    - Datacubes: guide/datacubes.md
+    - Catalog (STAC-fastapi): guide/fic_catalog.md
+    - FAIRICUBE-Hub: guide/fic_access.md
+    - JupyterLab: guide/jupyterlab.md
+    #- Datacubes:
+      #- Datacubes: guide/datacubes.md
+      #- rasdaman generation: guide/rasdaman_cube.md
+##     - xcube Viewer: guide/xcube-viewer.md
+##     - Datacubes: guide/datacubes.md
+      #- xcube generation:  guide/xcube-generation.md
+    - rasdaman datacube generation: guide/rasdaman_cube.md
+    - xcube datacube generation:  guide/xcube-generation.md
+    - ML-Toolkits: guide/ml-toolkits.md
+    - TensorBoard: guide/tensorboard.md
+    - Further information: guide/further-information.md
+  - External resources:
+    - EOxHub / EuroDataCube: external_resource/edc_access.md
+    - Sentinel-Hub: external_resource/sentinelhub_access.md
+  - ML-Toolkits:
+    - Introduction: ml-toolkit/ml_introduction.md
+    - Getting Started: ml-toolkit/ml_getting-started.md
+    - Example Use Case: ml-toolkit/ml_example.md
+  - TensorBoard:
+    - Introduction: tensorboard/tb_introduction.md
+    - Getting Started: tensorboard/tb_getting-started.md
+    - Example Use Case: tensorboard/tb_example.md
+  - Datasets:
+    - List of datasets: datasets/datasets.md
+    - STAC Catalog: datasets/stac_catalog.md
+  - FAIRiCUBE UseCases:
+    - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
+    - Biodiversity occurrence cubes: use_cases/biodiversity_cubes.md
+    - Biodiversity and agriculture nexus: use_cases/biodiversity_agri.md
+    - Urban adaptation to climate change: use_cases/urban_climate.md
+    - Drosophila Genetics: use_cases/drosophila_genetics.md
+  - Design:
+    - Context: design/fic_context.md
+    - Architecture: design/fic_architecture.md
+#    - Hub: design/hub.md
+    - Services and Tools: design/fic_access-and-tools.md
+
+plugins:
+  - search
+  - mkapi
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+  - attr_list
