@@ -44,8 +44,5 @@ In this project, we aim to advance the FAIRness of both data and data analysis a
 
 ## Machine learning and datacubes
 
-However, the broader potential of machine learning applied to multi-thematic datacubes has rarely been demonstrated. Most ML applications on datacubes focus on a limited number of data sources or often just temporal steps within one dataset.<br>
-However, the broader potential of machine learning applied to multi-thematic datacubes has rarely been demonstrated. Most ML applications on datacubes focus on a limited number of data sources or often just temporal steps within one dataset.<br>
+However, the broader potential of machine learning applied to multi-thematic datacubes has rarely been demonstrated. Most ML applications on datacubes focus on a limited number of data sources or often just temporal steps within one dataset.
 FAIRiCUBE aims to deliver the power of datacubes and ML to decision makers and data scientists.
-
-
