@@ -27,7 +27,7 @@ nav:
   - ML-Toolkits:
     - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
     - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
-    - MLflow Introduction: ml-toolkits/mlflow-introduction.md
+    - MLflow Introduction: ml-toolkits/mlflow_introduction.md
 #    - MLflow Examples: ml-toolkits/ml_examples.md
     - TensorFlow Introduction: ml-toolkits/tf_introduction.md
     - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
