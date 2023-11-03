@@ -177,7 +177,7 @@ It should look something like this example:
 * Once you are happy with your environment hit submit and grab a coffee. It will take some time to create your custom environment.
 * After submission, it will appear in the overview on https://eoxhub.fairicube.eu/conda-store/
 * You can click on the name of your newly created environment and see its status. There are three different statuses: Building, Completed, Failed
-* If you click on the build number you can see the logs. This might beuseful if the build has failed.
+* If you click on the build number you can see the logs. This might be useful if the build has failed.
 * Once the build is completed, you need to refresh your browser window to make it available in the kernel selection. Instructions how to change the kernel to your custom environment are provided in the section [python environment selection of the jupyter kernel](#python-environment-selection-of-the-jupyter-kernel).
 
 You can also modify an existing environment and rebuild it; the conda-store will keep all the builds' logs.
@@ -188,7 +188,13 @@ It will look similar to the screenshot below.
 The conda-build highlighted in green is the one, which you will use in you
 FAIRiCUBE JupyterLab, per default it is the latest successful build. If you
 wish to make a different build the one to be used in FAIRiCUBE JupyterLab,
-select the checkmark in the blue button panel of the desired conda-build.
+select the check mark in the blue button panel of the desired conda-build.
 The reload button in the blue button panel will trigger a rebuild of the
 conda-environment specification of the selected conda-build. The bin button
 deletes the conda-build of the selected conda-build.
+
+
+## Example Notebooks
+
+A series of helpful Jupyter Notebook Examples is provided under [Jupyter Notebook Examples](jupyterlab_examples.md)
+

@@ -10,4 +10,4 @@ However, there is a conflict between the nature of remotely-sensed data, the str
 
 Therefore, it is mandatory to enable Machine Learning that respects the basic principles of geo-data way beyond naive applications of Machine Learning in the Earth system context.
 More specific, sophisticated and efficient sampling strategies need to be developed. We here propose the usage of `DeepESDL`[block sampling](https://github.com/deepesdl/deepesdl-doc/blob/anja-xxx-ml_toolkit/docs/ml-toolkit/example.md#block-sampling) instead of random sampling, which accounts for
-challenges 1. and 2. and enables efficient and more meaningful ML applications on ARDCs. However, this is strongly depentend on the data and the scientific use case and needs to be evaluated by the domain expert.
+challenges 1. and 2. and enables efficient and more meaningful ML applications on ARDCs. However, this is strongly dependent on the data and the scientific use case and needs to be evaluated by the domain expert.

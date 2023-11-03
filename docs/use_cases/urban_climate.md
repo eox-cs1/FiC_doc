@@ -12,3 +12,7 @@ Research questions:
 
 
 Partners: space4environment and Stiftelsen Norsk Institutt for Luftforskning, Norwegian Institute for Air Research
+
+
+An example Jupyter Notebook is provided by UC1: [Getting started with FARiCube Hub](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/demo_processing.ipynb)
+

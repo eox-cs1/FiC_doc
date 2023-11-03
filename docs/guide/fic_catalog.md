@@ -4,7 +4,9 @@
     <img src="../../images/FAIRiPATH_data_flow.png" alt="FAIRiPATH_data_flow.png" />
 </p>-->
 
-Implemented utilizing STAC-fastapi.
+The dynamic FAIRiCUBE catalog, using the STAC Browser, can be accessed at: [https://catalog.eoxhub.fairicube.eu/](https://catalog.eoxhub.fairicube.eu/). The STAC Browser provides additional features like searching, which are not available in the static STAC catalog.<br>
+The next screenshots provide various views on the STAC Browser pages showing available catalogs and the the search interface.
+
 
 ### Catalog landing page
 
@@ -30,3 +32,4 @@ The catalog provides access to Datasets, and other respources like ML-collection
 ### Spatial search
 
 ![fairicube_dataaccess_Stac-fatsapi_search.png](../../images/fairicube_dataaccess_Stac-fatsapi_search.png)
+

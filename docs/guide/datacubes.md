@@ -1,4 +1,4 @@
-# FAIRiCUBE datacubes
+# Datacubes
 
 The concept of multidimensional datacubes can help overcome many challenges with respect to performance, scalability, interoperability, semantics, sampling, geo-referencing, and readiness for ML applications.
 
@@ -17,4 +17,5 @@ All datacubes generated and distributed by FAIRiCUBE come without any warranty, 
 
 During ingestion into the FAIRiCUBE, data sets are typically transformed in space and time to fit to the common grid of the data cube, a process that necessarily modifies the original data. If you are looking for the original data, please follow the links within the dataset attributes for each variable and contact the data owners.
 
-To access the documentation of available datasets, please have a look in the [Datasets section](../../datasets/datasets/#list-of-fairicube-datasets).
+To access the documentation of available datasets, please have a look in the [FAIRiCUBE Catalog](https://catalog.eoxhub.fairicube.eu/).
+

@@ -1,4 +1,4 @@
-# ML Toolkits - Introduction
+# ML Toolkits Introduction
 
 AI is becoming increasingly important in Earth observations as most parts of the Earth system are continuously monitored by sensors and AI is able to cope  with both the volume of data and the heterogeneous data characteristics. For instance, satellites monitor the atmosphere, land, and ocean with unprecedented accuracy. In FAIRiCUBE the JupyterLab capabilities have been extended to support the application of machine learning (ML) methods on datacubes.
 
@@ -12,14 +12,22 @@ For larger neural networks and support for Deep Learning additional ML toolchain
 Keras provides a high-level API that can be run on the popular execution backend TensorFlow. Due to its simplicity, it fits well to the requirements of those Earth system scientist that do not require to newly develop neuronal network architectures. As PyTorch, TensorFlow is python-based, allows for GPU computation and it supports Deep Learning applications including transfer learning or domain adaptation.
 
 Model tracking is realized through the usage of [TensorBoard](https://www.tensorflow.org/tensorboard) or
-[mlflow](https://mlflow.org/). These tools offer science teams an easy-to-use platform allowing to run and scale their Machine Learning workloads in a collaborative environment supporting versioning and sharing of parameters, models, artefacts, results, etc. within the team and potentially external users.
+[MLflow](https://mlflow.org/). These tools offer science teams an easy-to-use platform allowing to run and scale their Machine Learning workloads in a collaborative environment supporting versioning and sharing of parameters, models, artefacts, results, etc. within the team and potentially external users.
 
 # Overview
 
-1. [MLflow Introduction](ml_mlflow-introduction.md)
-2. [MLflow Getting Started](ml_getting-started.md)
-3. [MLflow Example Use Case and Juypter Notebooks](ml_example.md)
-4. [TensorBoard Introduction](../tensorboard/tb_introduction.md)
-5. [TensorBoard Getting Started](../tensorboard/tb_getting-started.md)
-6. [TensorBoard Example Use Case](../tensorboard/tb_example.md)
-<!-- 7. [Recommendations and Considerations](ml_recommendations.md)-->
+* [ML-Toolkits Getting Started](ml_getting-started.md)
+* [MLflow Introduction](mlflow_introduction.md)
+* [TensorFlow Introduction](tf_introduction.md)
+* [TensorFlow Getting Started](tf_getting-started.md)
+* [TensorFlow Examples](tf_examples.md)
+* PytTorch Introduction (work in progress)
+* PytTorch Getting Started (work in progress)
+* PytTorch Examples (work in progress)
+* scikit-learn Introduction  (work in progress)
+* scikit-learn Getting Started (work in progress)
+* scikit-learn Examples (work in progress)
+<!--* [MLflow Example Use Case and Juypter Notebooks](mlflow_examples.md)-->
+<!-- * [Recommendations and Considerations](mlflow_recommendations.md)-->
+
+

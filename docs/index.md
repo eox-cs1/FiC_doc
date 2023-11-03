@@ -22,14 +22,11 @@ FAIRiCUBE use cases address EU green deal action items, focusing on urban and re
 
 ## Datacubes
 
+The interpretation of the term datacube in the EO domain usually depends on the respective context. It may refer to a data service such as Sentinel Hub, to some abstract API, or to a concrete set of spatial images that form a time-series.
+
+In the EO domain a datacube is a multi-dimensional array of values; examples include multi-terabyte/petabyte data warehouses and time series of image data. The data cube is used to represent data (sometimes called facts) along some dimensions of interest.
+
 The concept of multidimensional datacubes can help overcome many challenges with respect to performance, scalability, interoperability, semantics, sampling, geo-referencing, and readiness for ML applications.
-
-While initial effort is required to transform existing point and vector sources to multidimensional grid formats and harmonize domain semantics, these formats’ discrete spatio-temporal basis facilitates alignment and is advantageous for automated processing.<br> Depending on the technology used, creating datacubes can be done either through referencing existing archive files generating “virtual cubes” for users or importing (i.e., copying) with re-gridding, which requires some computational efforts as a pre-processing step. In both cases, the user can directly focus on the data analysis and interpretation step.
-
-Each dimension of a datacube can represent a different property, integrating data from diverse sources across standard dimensions such as space and time; all this data is typically hosted in a single or multiple cloud environments. As long as the spatio-temporal dimensions of all component sources can be aligned, additional dimensions pertaining to the properties provided in these data sources can be added, and each grid point of the datacube can be populated with a variety of physical, biological, socio-economic, geographical, etc. properties.
-
-Subsets of this data (data windows or ranges) can be defined and accessed from a cloud-based data hosting service. Subsequently, these can be processed and transformed to spatial features and indicators, providing insights on a wide range of properties not necessarily contained within the originally accessed data. These outputs can then be directly visualized or passed on down the pipeline for additional processing.<br>
-Aggregating data over individual dimensions of the cube and processing across dimensions is solved efficiently by the underlying datacube engine. These cube capabilities providing discretely structured and aligned data allow for straightforward and efficient application of ML algorithms. For large spatio-temporal datasets common in Earth Observation, raster formats aligned with common datacubes appear to be the most appropriate form of data storage/handling/processing.
 
 
 ## FAIR processing and analysing

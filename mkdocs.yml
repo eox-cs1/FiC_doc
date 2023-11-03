@@ -8,48 +8,50 @@ theme: readthedocs  # alternative: mkdocs
 nav:
   - Home:
     - About FAIRiCUBE: index.md
-  - User guide:
     - Overview: guide/overview.md
-    - Datacubes: guide/datacubes.md
-    - Catalog: guide/fic_catalog.md
-    - FAIRiCUBE Hub: guide/fic_access.md
+  - Design:
+    - FAIRiCUBE Hub: guide/fic_hub.md
+    - Context: design/fic_context.md
+#    - Architecture: design/fic_architecture.md
+#    - Services and Tools: design/fic_services-and-tools.md
+  - User guide:
+    - FAIRiCUBE Catalog: guide/fic_catalog.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
-    #- Datacubes:
-      #- Datacubes: guide/datacubes.md
-      #- rasdaman generation: guide/rasdaman_cube.md
-##     - xcube Viewer: guide/xcube-viewer.md
-##     - Datacubes: guide/datacubes.md
-      #- xcube generation:  guide/xcube-generation.md
-    - rasdaman datacube generation: guide/rasdaman_cube.md
-    - xcube datacube generation:  guide/xcube-generation.md
-    - ML Toolkits: guide/ml-toolkits.md
+    - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
+    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
+    - Datacubes: guide/datacubes.md
+    - rasdaman datacubes: guide/rasdaman_cube.md
+    - xcube utilization:  guide/xcube_generation.md
+#    - ML Toolkits: guide/ml-toolkits.md
     - Further information: guide/further-information.md
+  - ML-Toolkits:
+    - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
+    - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
+    - MLflow Introduction: ml-toolkits/mlflow-introduction.md
+#    - MLflow Examples: ml-toolkits/ml_examples.md
+    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
+    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
+    - TensorFlow Examples: ml-toolkits/tf_examples.md
+#    - PyTorch Introduction: ml-toolkits/pt_introduction.md
+#    - PyTorch Getting Started: ml-toolkits/pt_getting-started.md
+#    - PyTorch Examples: ml-toolkits/pt_examples.md
+#    - Scikit Introduction: ml-toolkits/sk_introduction.md
+#    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
+#    - Scikit Examples: ml-toolkits/sk_examples.md
+    #- Recommendations and Considerations: ml-toolkit/ml_recommendations.md
+  - Datasets:
+#    - List of datasets: datasets/datasets.md
+    - STAC Catalog: guide/fic_catalog.md
+  - FAIRiCUBE UseCases:
+    - Urban adaptation to climate change: use_cases/urban_climate.md
+    - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
+    - Biodiversity and agriculture nexus: use_cases/biodiversity_agri.md
+    - Biodiversity occurrence cubes: use_cases/biodiversity_cubes.md
+    - Drosophila Genetics: use_cases/drosophila_genetics.md
   - External resources:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
     - Sentinel-Hub: external_resource/sentinelhub_access.md
-  - ML-Toolkits:
-    - Introduction: ml-toolkit/ml_introduction.md
-    - MLflow Introduction: ml-toolkit/ml_mlflow-introduction.md
-    - MLflow Getting Started: ml-toolkit/ml_getting-started.md
-    - MLflow Example Use Case: ml-toolkit/ml_example.md
-    - TensorBoard Introduction: tensorboard/tb_introduction.md
-    - TensorBoard Getting Started: tensorboard/tb_getting-started.md
-    - TensorBoard Example Use Case: tensorboard/tb_example.md
-    #- Recommendations and Considerations: ml-toolkit/ml_recommendations.md
-  - Datasets:
-    - List of datasets: datasets/datasets.md
-    - STAC Catalog: datasets/stac_catalog.md
-  - FAIRiCUBE UseCases:
-    - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
-    - Biodiversity occurrence cubes: use_cases/biodiversity_cubes.md
-    - Biodiversity and agriculture nexus: use_cases/biodiversity_agri.md
-    - Urban adaptation to climate change: use_cases/urban_climate.md
-    - Drosophila Genetics: use_cases/drosophila_genetics.md
-  - Design:
-    - Context: design/fic_context.md
-    - Architecture: design/fic_architecture.md
-#    - Hub: design/hub.md
-    - Services and Tools: design/fic_services-and-tools.md
+
 
 plugins:
   - search
