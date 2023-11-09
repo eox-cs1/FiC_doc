@@ -26,22 +26,23 @@ nav:
     - Further information: guide/further-information.md
   - ML-Toolkits:
     - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
-    - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
     - MLflow Introduction: ml-toolkits/mlflow_introduction.md
-#    - MLflow Examples: ml-toolkits/ml_examples.md
-    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
-    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
-    - TensorFlow Examples: ml-toolkits/tf_examples.md
-#    - PyTorch Introduction: ml-toolkits/pt_introduction.md
-#    - PyTorch Getting Started: ml-toolkits/pt_getting-started.md
-#    - PyTorch Examples: ml-toolkits/pt_examples.md
+    - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
+#    - ML-Toolkit Examples: ml-toolkits/ml_examples.md
+##    - ML Recommendations and Considerations: ml-toolkit/ml_recommendations.md
 #    - Scikit Introduction: ml-toolkits/sk_introduction.md
 #    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
 #    - Scikit Examples: ml-toolkits/sk_examples.md
-    #- Recommendations and Considerations: ml-toolkit/ml_recommendations.md
+#    - PyTorch Introduction: ml-toolkits/pt_introduction.md
+#    - PyTorch Getting Started: ml-toolkits/pt_getting-started.md
+#    - PyTorch Examples: ml-toolkits/pt_examples.md
+#    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
+#    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
+#    - TensorFlow Examples: ml-toolkits/tf_examples.md
   - Datasets:
 #    - List of datasets: datasets/datasets.md
     - STAC Catalog: guide/fic_catalog.md
+    - Adding Datasets to FAIRiCUBE: guide/adding_datastes.md
   - FAIRiCUBE UseCases:
     - Urban adaptation to climate change: use_cases/urban_climate.md
     - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
