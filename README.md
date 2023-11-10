@@ -7,4 +7,5 @@ These act as the deliverable D4.5 in the FAIRiCUBE project.
 
     $ conda install -c conda-forge mkdocs mkapi
 or
+
     $ pip3 install mkdocs mkapi
