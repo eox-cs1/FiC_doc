@@ -14,11 +14,18 @@ Keras provides a high-level API that can be run on the popular execution backend
 Model tracking is realized through the usage of [TensorBoard](https://www.tensorflow.org/tensorboard) or
 [MLflow](https://mlflow.org/). These tools offer science teams an easy-to-use platform allowing to run and scale their Machine Learning workloads in a collaborative environment supporting versioning and sharing of parameters, models, artefacts, results, etc. within the team and potentially external users.
 
+TensorBoard, as another collaborative tool in this MLOPs space is currently evaluated by the science teams and available as part of the TensorFlow conda kernel to individual users within their JupyterLab session.
+
+
+One may also want to reuse information gained during model training for a second related task, especially when it comes to a lack of data. A PyTorch based Jupyter Notebook provides the implementation of [Transfer Learning](https://github.com/deepesdl/ML-Toolkit/blob/master/src/transfer_learning.ipynb).
+
+
 # Overview
 
-* [ML-Toolkits Getting Started](ml_getting-started.md)
 * [MLflow Introduction](mlflow_introduction.md)
+* [ML-Toolkits Getting Started](ml_getting-started.md)
 * [ML Toolkit Examples](ml_examples.md)
+* TensoBoard Introduction (work in progress)
 * TensorFlow Introduction (work in progress)
 * TensorFlow Getting Started (work in progress)
 * TensorFlow Examples (work in progress)
@@ -28,10 +35,18 @@ Model tracking is realized through the usage of [TensorBoard](https://www.tensor
 * scikit-learn Introduction  (work in progress)
 * scikit-learn Getting Started (work in progress)
 * scikit-learn Examples (work in progress)
-<!--* [ML Toolkit Examples](ml_examples.md)
+<!--
+* TensoBoard Introduction (tb_introduction.md)
 * [TensorFlow Introduction](tf_introduction.md)
 * [TensorFlow Getting Started](tf_getting-started.md)
-* [TensorFlow Examples](tf_examples.md)-->
+* [TensorFlow Examples](tf_examples.md)
+* PytTorch Introduction (pt_introduction.md)
+* PytTorch Getting Started (pt_getting-started.md)
+* PytTorch Examples (pt_examples.md)
+* scikit-learn Introduction  (sk_introduction.md)
+* scikit-learn Getting Started (sk_getting-started.md)
+* scikit-learn Examples (sk_examples.md)
+-->
 <!-- * [Recommendations and Considerations](mlflow_recommendations.md)-->
 
 

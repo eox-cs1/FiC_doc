@@ -28,7 +28,7 @@ nav:
     - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
     - MLflow Introduction: ml-toolkits/mlflow_introduction.md
     - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
-#    - ML-Toolkit Examples: ml-toolkits/ml_examples.md
+    - ML-Toolkit Examples: ml-toolkits/ml_examples.md
 ##    - ML Recommendations and Considerations: ml-toolkit/ml_recommendations.md
 #    - Scikit Introduction: ml-toolkits/sk_introduction.md
 #    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
